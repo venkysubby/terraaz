@@ -7,10 +7,10 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    storage_account_name = "terraformstrorage23"
+    storage_account_name = "automationpurpose"
     container_name       = "logs"
     key                  = "prod.terraform.tfstate"
-    access_key = "jGVzpKZv4RGZtKwlVAWKjSMVfiXUTyVgPogJSXFbbIwysPW5/+gPIWb2GW2acQAE1hSaI6bya0zl+AStgohZWw=="
+    access_key = "C2QxvyaObIQh3oyUEgX5RxbYGTxFojGZnQ/iz7BwMYiWj/QMj3qGXDcYlOt0B8gd6oss8jl4WMn8+AStDNYDvA=="
   }
 }
            
